@@ -22,7 +22,7 @@ contract ResearchPaper {
     // Submit a paper if it doesn't exist, and return the unique ID
     function submitPaper(
         string memory _title, 
-        string m+emory _author, 
+        string memory _author, 
         string memory _abs, 
         string memory _keywords
     ) public returns (bytes32) {
